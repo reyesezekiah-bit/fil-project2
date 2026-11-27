@@ -14,14 +14,19 @@
 <body>
 
 <header class="site-header">
-  <a href="index.html" class="site-brand">KURYENTE PARA SA LAHAT</a>
+  <a href="index.html" class="brand">
+    <span class="brand-mark">⚡</span>
+    <b>KURYENTE PARA SA LAHAT</b>
+  </a>
 
-  <nav class="main-nav">
+  <button class="menu-toggle" aria-label="Open menu">☰</button>
+
+  <nav class="nav">
     <a href="index.html">Home</a>
     <a href="about.html">Tungkol</a>
     <div class="nav-dropdown">
-      <a href="#" class="nav-dropdown-toggle">Mga Paksa <span>⌄</span></a>
-      <div class="nav-dropdown-menu">
+      <button class="nav-dropbtn" aria-expanded="false">Mga Paksa <span>⌄</span></button>
+      <div class="nav-menu">
         <a href="rafael-umali.html">Rafael Umali</a>
         <a href="zachary-cruz.html">Zachary Cruz</a>
         <a href="brayden-chongco.html">Brayden Chongco</a>
@@ -36,25 +41,28 @@
 
 <main>
 
-<section class="topic-hero section">
-  <div class="eyebrow">MGA SANGGUNIAN</div>
+<section class="topic-hero">
+  <div class="eyebrow"><span></span> MGA SANGGUNIAN</div>
   <h1>Mga Pinagkunan ng Impormasyon</h1>
   <p class="topic-lede">
     Ang mga sumusunod ay ang mga artikulo, pag-aaral, ulat, at iba pang materyales na ginamit bilang batayan ng mga paksang tinalakay sa website na ito.
   </p>
-  <a href="#mga-sanggunian" class="btn btn-primary">Tingnan ang mga sanggunian</a>
+  <a href="#mga-sanggunian" class="btn btn-primary">Tingnan ang mga sanggunian <span>↓</span></a>
 </section>
 
 <section class="section topic-content" id="mga-sanggunian">
 
   <div class="consultation-intro">
     <div class="consultation-heading">
-      <div class="eyebrow">MGA PINAGKUNAN</div>
+      <div class="eyebrow"><span></span> MGA PINAGKUNAN</div>
       <h2>Mga batayan ng aming pananaliksik</h2>
     </div>
     <div class="consultation-explanation">
       <p>
         Hinati ang mga sanggunian ayon sa may-akda ng bawat paksa upang mas madaling makita kung saan nagmula ang mga impormasyon at ebidensiyang ginamit.
+      </p>
+      <p>
+        Maaari mong buksan ang mga link upang direktang makita ang mga orihinal na materyales.
       </p>
     </div>
   </div>
@@ -65,182 +73,210 @@
       <div class="eyebrow">PAGGAMIT NG MGA SANGGUNIAN</div>
       <h3>Mahalaga ang mapagkakatiwalaang impormasyon.</h3>
       <p>
-        Bawat sanggunian ay tumutulong upang mas maunawaan ang epekto ng mga data center sa konsumo ng kuryente, gastusin ng mga pamilya, at kalikasan.
+        Ang mga sangguniang ito ang nagsisilbing batayan ng mga argumento tungkol sa epekto ng mga data center sa konsumo ng kuryente, gastusin ng mga pamilya, at kalikasan.
       </p>
     </div>
   </div>
 
-  <div class="consultation-process-heading">
-    <div class="eyebrow">LISTAHAN NG MGA SANGGUNIAN</div>
+  <div class="section-heading">
+    <div class="eyebrow"><span></span> LISTAHAN NG MGA SANGGUNIAN</div>
     <h2>Mga ginamit na materyales</h2>
-    <p>Piliin ang pangalan ng may-akda upang makita ang mga sangguniang ginamit sa kaniyang paksa.</p>
+    <p class="section-intro">
+      Nakaayos ang mga sanggunian ayon sa anim na may-akda at sa kani-kanilang paksa.
+    </p>
   </div>
 
-  <div class="reference-list">
+  <section class="references-section ref-page">
 
-    <article class="reference-group">
-      <div class="reference-group-header">
-        <span class="reference-number">01</span>
+    <div class="evidence-list">
+
+      <article class="evidence-item">
+        <div class="evidence-mark">01</div>
         <div>
-          <div class="eyebrow">PAKSA 1</div>
           <h3>Rafael Umali</h3>
-          <p>Pagtaas ng gastusin at krisis sa enerhiya</p>
+          <p>Ang Epekto ng Pagtaas ng Gastusin at Krisis sa Enerhiya sa Pang-araw-araw na Pamilyang Pilipino</p>
+          <ul class="references">
+            <li>
+              <div>
+                <span class="ref-author">Latoza (2026, January 11)</span>
+                <strong>Data centers raise concerns.</strong>
+              </div>
+              <a href="https://pcij.org/2026/01/11/data-centers-raise-concerns/" target="_blank" rel="noopener noreferrer">Basahin ↗</a>
+            </li>
+            <li>
+              <div>
+                <span class="ref-author">Tabile (2026, October 6)</span>
+                <strong>Ulat tungkol sa epekto ng mga data center sa enerhiya.</strong>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span class="ref-author">Singh et al. (2024)</span>
+                <strong>Pag-aaral tungkol sa enerhiya at mga data center.</strong>
+              </div>
+            </li>
+          </ul>
         </div>
-      </div>
-      <ol class="reference-items">
-        <li>
-          <p class="reference-author">Latoza. (2026, January 11).</p>
-          <p class="reference-title">Data centers raise concerns.</p>
-          <a href="https://pcij.org/2026/01/11/data-centers-raise-concerns/" target="_blank" rel="noopener noreferrer">Basahin ang sanggunian ↗</a>
-        </li>
-        <li>
-          <p class="reference-author">Tabile. (2026, October 6).</p>
-          <p class="reference-title">Ulat tungkol sa epekto ng mga data center sa enerhiya.</p>
-        </li>
-        <li>
-          <p class="reference-author">Singh, et al. (2024).</p>
-          <p class="reference-title">Pag-aaral tungkol sa enerhiya at mga data center.</p>
-        </li>
-      </ol>
-    </article>
+      </article>
 
-    <article class="reference-group">
-      <div class="reference-group-header">
-        <span class="reference-number">02</span>
+      <article class="evidence-item">
+        <div class="evidence-mark">02</div>
         <div>
-          <div class="eyebrow">PAKSA 2</div>
           <h3>Zachary Cruz</h3>
-          <p>Emisyon ng carbon mula sa pagpapatakbo ng mga data center</p>
+          <p>Emisyon ng Carbon mula sa Pagpapatakbo ng mga Data Center</p>
+          <ul class="references">
+            <li>
+              <div>
+                <span class="ref-author">University of the Philippines (2025)</span>
+                <strong>Ulat tungkol sa sustainability at Sustainable Development Goal 13.</strong>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span class="ref-author">Raphael et al. (2023)</span>
+                <strong>Pag-aaral tungkol sa mga data center, climate change, at energy efficiency.</strong>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span class="ref-author">One News PH (2026, July 29)</span>
+                <strong>Video tungkol sa Pax Silica at supply chain.</strong>
+              </div>
+            </li>
+          </ul>
         </div>
-      </div>
-      <ol class="reference-items">
-        <li>
-          <p class="reference-author">University of the Philippines. (2025).</p>
-          <p class="reference-title">Ulat tungkol sa sustainability at Sustainable Development Goal 13.</p>
-        </li>
-        <li>
-          <p class="reference-author">Raphael, et al. (2023).</p>
-          <p class="reference-title">Pag-aaral tungkol sa mga data center, climate change, at energy efficiency.</p>
-        </li>
-        <li>
-          <p class="reference-author">One News PH. (2026, July 29).</p>
-          <p class="reference-title">Video tungkol sa Pax Silica at supply chain.</p>
-        </li>
-      </ol>
-    </article>
+      </article>
 
-    <article class="reference-group">
-      <div class="reference-group-header">
-        <span class="reference-number">03</span>
+      <article class="evidence-item">
+        <div class="evidence-mark">03</div>
         <div>
-          <div class="eyebrow">PAKSA 3</div>
           <h3>Brayden Allan S. Chongco</h3>
-          <p>Epekto ng mga data center sa presyo ng kuryente ng mga ordinaryong tahanan</p>
+          <p>Ang Epekto ng mga Data Center sa Presyo ng Kuryente ng mga Ordinaryong Tahanan</p>
+          <ul class="references">
+            <li>
+              <div>
+                <span class="ref-author">Cordero (2026, July 10)</span>
+                <strong>Ulat tungkol sa pagbabago ng singil sa kuryente.</strong>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span class="ref-author">Latoza (2026, January 26)</span>
+                <strong>Data centers raise concerns.</strong>
+              </div>
+              <a href="https://pcij.org/2026/01/11/data-centers-raise-concerns/" target="_blank" rel="noopener noreferrer">Basahin ↗</a>
+            </li>
+            <li>
+              <div>
+                <span class="ref-author">Geng (2021)</span>
+                <strong>Data Center Handbook.</strong>
+              </div>
+            </li>
+          </ul>
         </div>
-      </div>
-      <ol class="reference-items">
-        <li>
-          <p class="reference-author">Cordero. (2026, July 10).</p>
-          <p class="reference-title">Ulat tungkol sa pagbabago ng singil sa kuryente.</p>
-        </li>
-        <li>
-          <p class="reference-author">Latoza. (2026, January 26).</p>
-          <p class="reference-title">Data centers raise concerns.</p>
-          <a href="https://pcij.org/2026/01/11/data-centers-raise-concerns/" target="_blank" rel="noopener noreferrer">Basahin ang sanggunian ↗</a>
-        </li>
-        <li>
-          <p class="reference-author">Geng. (2021).</p>
-          <p class="reference-title">Data Center Handbook.</p>
-        </li>
-      </ol>
-    </article>
+      </article>
 
-    <article class="reference-group">
-      <div class="reference-group-header">
-        <span class="reference-number">04</span>
+      <article class="evidence-item">
+        <div class="evidence-mark">04</div>
         <div>
-          <div class="eyebrow">PAKSA 4</div>
           <h3>Josef Kai B. Joson</h3>
-          <p>Alternatibong enerhiya para sa mga data center</p>
+          <p>Nukleyar o Solar? Alternatibong Enerhiya para sa mga Data Center</p>
+          <ul class="references">
+            <li>
+              <div>
+                <span class="ref-author">McDonald &amp; Ballan (2023)</span>
+                <strong>Pag-aaral tungkol sa solar energy.</strong>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span class="ref-author">Institute for Climate and Sustainable Cities (2026, February 16)</span>
+                <strong>Ulat tungkol sa klima at sustainable energy.</strong>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span class="ref-author">TED-Ed (2024)</span>
+                <strong>Educational material tungkol sa enerhiya.</strong>
+              </div>
+            </li>
+          </ul>
         </div>
-      </div>
-      <ol class="reference-items">
-        <li>
-          <p class="reference-author">McDonald &amp; Ballan. (2023).</p>
-          <p class="reference-title">Pag-aaral tungkol sa solar energy.</p>
-        </li>
-        <li>
-          <p class="reference-author">Institute for Climate and Sustainable Cities. (2026, February 16).</p>
-          <p class="reference-title">Ulat tungkol sa klima at sustainable energy.</p>
-        </li>
-        <li>
-          <p class="reference-author">TED-Ed. (2024).</p>
-          <p class="reference-title">Educational material tungkol sa enerhiya.</p>
-        </li>
-      </ol>
-    </article>
+      </article>
 
-    <article class="reference-group">
-      <div class="reference-group-header">
-        <span class="reference-number">05</span>
+      <article class="evidence-item">
+        <div class="evidence-mark">05</div>
         <div>
-          <div class="eyebrow">PAKSA 5</div>
           <h3>Andy Garcia</h3>
-          <p>Proseso ng pampublikong konsultasyon sa pagtatayo ng mga data center</p>
+          <p>Boses Bago ang Bato: Proseso ng Pampublikong Konsultasyon sa Pagtatayo ng mga Data Center</p>
+          <ul class="references">
+            <li>
+              <div>
+                <span class="ref-author">Geng (2021)</span>
+                <strong>Data Center Handbook.</strong>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span class="ref-author">Li (2025)</span>
+                <strong>Pag-aaral tungkol sa mga data center at epekto nito sa komunidad.</strong>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span class="ref-author">PBS NewsHour (2026, June 12)</span>
+                <strong>Ulat tungkol sa mga data center.</strong>
+              </div>
+            </li>
+          </ul>
         </div>
-      </div>
-      <ol class="reference-items">
-        <li>
-          <p class="reference-author">Geng. (2021).</p>
-          <p class="reference-title">Data Center Handbook.</p>
-        </li>
-        <li>
-          <p class="reference-author">Li. (2025).</p>
-          <p class="reference-title">Pag-aaral tungkol sa mga data center at epekto nito sa komunidad.</p>
-        </li>
-        <li>
-          <p class="reference-author">PBS NewsHour. (2026, June 12).</p>
-          <p class="reference-title">Ulat tungkol sa mga data center.</p>
-        </li>
-      </ol>
-    </article>
+      </article>
 
-    <article class="reference-group">
-      <div class="reference-group-header">
-        <span class="reference-number">06</span>
+      <article class="evidence-item">
+        <div class="evidence-mark">06</div>
         <div>
-          <div class="eyebrow">PAKSA 6</div>
           <h3>Ezekiah C. Reyes</h3>
-          <p>Pagbibigay-priyoridad sa pangangailangan ng mga ordinaryong tahanan</p>
+          <p>Kuryente ay Pangangailangan, Hindi Pribilehiyo</p>
+          <ul class="references">
+            <li>
+              <div>
+                <span class="ref-author">Somani (n.d.)</span>
+                <strong>Ulat tungkol sa paggamit ng kuryente ng mga data center.</strong>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span class="ref-author">Latoza (2026, January 26)</span>
+                <strong>Data centers raise concerns.</strong>
+              </div>
+              <a href="https://pcij.org/2026/01/11/data-centers-raise-concerns/" target="_blank" rel="noopener noreferrer">Basahin ↗</a>
+            </li>
+            <li>
+              <div>
+                <span class="ref-author">Navarro &amp; Camara (2024)</span>
+                <strong>Pag-aaral tungkol sa presyo ng kuryente sa Pilipinas.</strong>
+              </div>
+            </li>
+          </ul>
         </div>
-      </div>
-      <ol class="reference-items">
-        <li>
-          <p class="reference-author">Somani. (n.d.).</p>
-          <p class="reference-title">Ulat tungkol sa paggamit ng kuryente ng mga data center.</p>
-        </li>
-        <li>
-          <p class="reference-author">Latoza. (2026, January 26).</p>
-          <p class="reference-title">Data centers raise concerns.</p>
-          <a href="https://pcij.org/2026/01/11/data-centers-raise-concerns/" target="_blank" rel="noopener noreferrer">Basahin ang sanggunian ↗</a>
-        </li>
-        <li>
-          <p class="reference-author">Navarro &amp; Camara. (2024).</p>
-          <p class="reference-title">Pag-aaral tungkol sa presyo ng kuryente sa Pilipinas.</p>
-        </li>
-      </ol>
-    </article>
+      </article>
 
-  </div>
+    </div>
+
+    <p class="source-note">
+      Paalala: Ang mga pamagat at detalye ng mga sangguniang walang direktang link ay kailangang itugma sa orihinal na materyales bago isumite.
+    </p>
+
+  </section>
 
   <div class="consultation-outcome">
     <div>
       <div class="eyebrow">PANGHULING PAALALA</div>
-      <h2>Patuloy na suriin ang mga impormasyon.</h2>
+      <h2>Ang bawat argumento ay dapat may matibay na batayan.</h2>
     </div>
     <div>
       <p>
-        Ang mga sangguniang ito ay nagsisilbing batayan ng mga argumento sa bawat paksa. Maaaring buksan ang mga link na nakalagay upang mabasa ang mga materyales mula sa kanilang orihinal na pinagmulan.
+        Sa pamamagitan ng mga sangguniang ito, mas mauunawaan ng mga mambabasa ang iba't ibang pananaw at impormasyon tungkol sa pagtatayo at pagpapatakbo ng mga data center sa Pilipinas.
       </p>
     </div>
   </div>
@@ -253,20 +289,15 @@
 
 </main>
 
-<footer class="site-footer">
-  <div class="footer-inner">
-    <div>
-      <a href="index.html" class="footer-brand">KURYENTE PARA SA LAHAT</a>
-      <p>Isang proyekto tungkol sa epekto ng mga data center sa mga Pilipino at sa kalikasan.</p>
-    </div>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="about.html">Tungkol</a>
-      <a href="references.html">Sanggunian</a>
-    </div>
-  </div>
+<footer class="footer">
+  <a href="index.html" class="footer-brand">
+    <span class="brand-mark">⚡</span>
+    KURYENTE PARA SA LAHAT
+  </a>
+  <p>Isang proyekto tungkol sa epekto ng mga data center sa mga Pilipino at sa kalikasan.</p>
   <div class="footer-bottom">
-    <p>FIL 12 • 12-ACQ • ABM • Grupo 3</p>
+    <span>FIL 12 • 12-ACQ • ABM • Grupo 3</span>
+    <a href="references.html">Mga Sanggunian</a>
   </div>
 </footer>
 
