@@ -21,8 +21,6 @@ const observer = new IntersectionObserver(entries => {
 }, { rootMargin: '-35% 0px -55% 0px' });
 sections.forEach(section => observer.observe(section));
 
-
-// Accessible topic dropdown; retains the original mobile navigation behavior.
 document.querySelectorAll('.nav-dropbtn').forEach(button => {
   button.addEventListener('click', () => {
     const parent = button.closest('.nav-dropdown');
